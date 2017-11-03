@@ -1,5 +1,5 @@
 pipeline_beat:
-	ln -s ./pipeline-available/beat.conf ./pipeline/beat.conf
+	cp ./pipeline-available/beat.conf ./pipeline/beat.conf
 
 clean:
 	docker-compose stop
